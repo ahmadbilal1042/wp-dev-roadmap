@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: wheat;
+    background-color: black;
+    font-size: 20px;
+    border: 1px solid red;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+aside nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
