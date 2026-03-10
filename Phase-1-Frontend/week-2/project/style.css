@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+}
+
+.header nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header nav ul li {
+    list-style: none;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    min-height: 50vh;
+    background-color: rgb(208, 205, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero h1,
+.hero p {
+    max-width: 50%;
+    text-align: center;
+}
